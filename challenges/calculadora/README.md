@@ -6,11 +6,11 @@ Esse repositorio esta com alguns problemas, as funções da calculadora não est
 ## **Objetivo:**
 Implemente as funções que estão quebradas da calculadora. O funcionamento da calculadora **deve ficar assim:**
 
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/calculadora/public/ignore/Desafio_Calcuadora.gif"")
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/calculadora/public/ignore/Desafio_Calculadora.gif)
 
 **Atualmente:**
 
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/calculadora/public/ignore/Desafio_Calcuadora_Quebrado.gif"")
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/calculadora/public/ignore/Desafio_Calcuadora_Quebrado.gif)
 
 
 
