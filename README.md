@@ -13,5 +13,11 @@
     <img src="https://www.commitjr.com/wp-content/uploads/2020/06/commit-jr_arara_512_512.png" alt="Commit-Pull-Hackquest-2020" width="200">
 </p>
 <p align="center">
-     
 </p>
+
+## **Sobre o Evento:**
+### o Hacktoberfest é um evento organizado anualmente pela Digital Ocean e tem como objetivo movimentar a comunidade open source para trazer mais desenvolvedores de todos os níveis para contribuir e aprender sobre ela.
+
+## **Desafios:**
+
+### <a href='./challenges/calculadora/'>1 - Calculadora</a>

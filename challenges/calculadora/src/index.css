@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Poppis-Regular';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+* {
+  font-family: 'Poppis-Regular', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background: linear-gradient(to right, rgb(209, 218, 223), rgb(14, 32, 134));
+}
