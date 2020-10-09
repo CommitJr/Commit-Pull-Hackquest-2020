@@ -8,11 +8,11 @@ O Nosso Sistema está impossibilitado de fazer novos Commits, alterar os que já
 ## **Objetivo:**
 Implemente e altere o necessário para que seja possível criar (branches e commits), listar, editar e excluir. O funcionamento **deverá ser o seguinte:**
 
-![Desafio](\backend\public\ignore\Desafio_Crud.gif)
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/backend/public/ignore/Desafio_Crud.gif)
 
 **Atualmente:**
 
-![Desafio](\backend\public\ignore\Desafio_Crud_Quebrado.gif)
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/backend/public/ignore/Desafio_Crud_Quebrado.gif)
 
 ## **Documentação do Básica:**
 [![React Badge](https://img.shields.io/badge/-FrontEnd-48CEF7?style=flat-square&logo=React&logoColor=111)](https://https://github.com/CommitJr/Commit-Pull-Hackquest-2020/tree/main/challenges/crud/frontend)

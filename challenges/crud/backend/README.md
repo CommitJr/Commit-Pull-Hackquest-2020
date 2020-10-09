@@ -1,19 +1,6 @@
 # Desafio: CRUD
-[![Javascript Badge](https://img.shields.io/badge/-NodeJS-EFD81D?style=flat-square&logo=Nodejs&logoColor=444)]()
-[![React Badge](https://img.shields.io/badge/-React-48CEF7?style=flat-square&logo=React&logoColor=111)]()
-## **Descrição:**
-O Nosso Sistema está impossibilitado de fazer novos Commits, alterar os que já existem, excluí-los ou até mesmo listá-los. Não podemos sequer criar uma nova branch pra dividir o sistema.
-## **Objetivo:**
-Implemente e altere o necessário para que seja possível criar (branches e commits), listar, editar e excluir. O funcionamento **deverá ser o seguinte:**
-
-
-
-**Atualmente:**
-
-
-
-
-
+[![SqLite Badge](https://img.shields.io/badge/-SqLite-003B57?style=flat-square&logo=SQLite&logoColor=fff)]()
+[![Node.js Badge](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=Node.js&logoColor=fff)]()
 
 ## **Documentação de Referência:**
 [Knex](http://knexjs.org/) (Query Builder para nosso SQLite3).<br />
@@ -60,10 +47,10 @@ Essas funcionalidades se referem aos arquivos `BranchController.js` e `CommitCon
 As funções se referem ao tratamento das requisições de POST, GET, PUT e DELETE que o servidor poderá receber. As rotas serão criadas em `routes.js` presente em `src/`.<br />
 
 Perceba a falta do código:<br />
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado1.png)<br />
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado2.png)<br />
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/backend/public/ignore/Desafio_CRUD_Quebrado1.png)<br />
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/backend/public/ignore/Desafio_CRUD_Quebrado2.png)<br />
 
 E vc também precisará consertar as rotas de requisições no arquivo `routes.js`:<br />
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado3.png)<br />
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/backend/public/ignore/Desafio_CRUD_Quebrado3.png)<br />
 
 ### Obrigado :) <3
