@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Poppis-Regular';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+* {
+  font-family: 'Poppis-Regular', monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
