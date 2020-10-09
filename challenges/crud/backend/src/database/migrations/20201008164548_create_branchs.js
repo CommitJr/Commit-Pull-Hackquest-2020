@@ -2,7 +2,7 @@
 exports.up = function(knex) {
   return knex.schema.createTable('branchs', table => {
     table.increments('id').primary();
-    table.string('nome').notNullable();
+    table.string('name').notNullable();
   });
 };
 
