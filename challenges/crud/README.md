@@ -60,10 +60,10 @@ Essas funcionalidades se referem aos arquivos `BranchController.js` e `CommitCon
 As funções se referem ao tratamento das requisições de POST, GET, PUT e DELETE que o servidor poderá receber. As rotas serão criadas em `routes.js` presente em `src/`.<br />
 
 Perceba a falta do código:<br />
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado1.jpg)<br />
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado2.jpg)<br />
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado1.png)<br />
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado2.png)<br />
 
 E vc também precisará consertar as rotas de requisições no arquivo `routes.js`:<br />
-![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado3.jpg)<br />
+![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/back/public/ignore/Desafio_CRUD_Quebrado3.png)<br />
 
 ### Obrigado :) <3
