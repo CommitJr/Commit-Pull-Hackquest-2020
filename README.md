@@ -21,3 +21,4 @@
 ## **Desafios:**
 
 ### <a href='./challenges/calculadora/'>1 - Calculadora</a>
+### <a href='./challenges/crud/'>2 - CRUD</a>
