@@ -15,5 +15,5 @@ Implemente e altere o necessário para que seja possível criar (branches e comm
 ![Desafio](https://raw.githubusercontent.com/CommitJr/Commit-Pull-Hackquest-2020/main/challenges/crud/backend/public/ignore/Desafio_Crud_Quebrado.gif)
 
 ## **Documentação do Básica:**
-[![React Badge](https://img.shields.io/badge/-FrontEnd-48CEF7?style=flat-square&logo=React&logoColor=111)](https://https://github.com/CommitJr/Commit-Pull-Hackquest-2020/tree/main/challenges/crud/frontend)
-[![Node.js Badge](https://img.shields.io/badge/-BackEnd-339933?style=flat-square&logo=Node.js&logoColor=fff)](https://https://github.com/CommitJr/Commit-Pull-Hackquest-2020/tree/main/challenges/crud/frontend)
+[![React Badge](https://img.shields.io/badge/-FrontEnd-48CEF7?style=flat-square&logo=React&logoColor=111)](https://github.com/CommitJr/Commit-Pull-Hackquest-2020/tree/main/challenges/crud/frontend)
+[![Node.js Badge](https://img.shields.io/badge/-BackEnd-339933?style=flat-square&logo=Node.js&logoColor=fff)](https://github.com/CommitJr/Commit-Pull-Hackquest-2020/tree/main/challenges/crud/backend)
