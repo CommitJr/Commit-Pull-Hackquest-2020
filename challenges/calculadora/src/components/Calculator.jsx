@@ -47,10 +47,32 @@ export default class Calculator extends Component {
 				break;
 			default: break;
 		}
-		this.setState({
-			...this.state,
-			displayValue: result.toString(),
-		})
+		const resultString = result.toString()
+
+		/*
+			it verifies if the number have more than 9 digits. If true, it verifies if the number has 10 digits and is
+			a negative number. If true, the method simply displays the number with the minus sign before it
+		*/
+		if(resultString.length > 9){
+			if(resultString.length === 10 && result < 0){
+				this.setState({
+					...this.state,
+					displayValue: resultString,
+				})
+			}
+			else{
+				this.setState({
+					...this.state,
+					displayValue: 'Erro',
+				})
+			}
+		}
+		else{
+			this.setState({
+				...this.state,
+				displayValue: resultString,
+			})
+		}
 	}
 
 
@@ -87,8 +109,15 @@ export default class Calculator extends Component {
     }
 
     addDigit(n) {
+		/*
+			it will verify if the display value has less than 9 digits. If the number has more than 9 digits,
+			it does nothing for aesthetic purposes, cause more than 9 digits on the display causes the exceeding 
+			digits to disappear from the display, making difficult to see the real number that is on the state
+		*/
+		if(this.state.displayValue.length === 9 && !this.state.clearDisplay);
+
         // it will verify if it is the first number of the operation or not
-        if(!this.state.clearDisplay){
+        else if(!this.state.clearDisplay){
             /* 
                 if it is the first number of the operation, the method will verify if there is only a 0 in the display;
                 if true, it will replace the zero with the digit clicked;
