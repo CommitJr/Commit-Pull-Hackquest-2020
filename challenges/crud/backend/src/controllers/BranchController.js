@@ -11,7 +11,13 @@ module.exports = {
   },
 
   async create(req, res) {
-    //#Erorr002155
+    connection.table('branchs').insert({ nome: req.body['name'] })
+      .then(() => {
+        res.status(200).json({
+          status: 'success'
+        });
+      })
+      .catch(err => { console.log(err); throw err; });
   },
 
   async edit(req, res) {
