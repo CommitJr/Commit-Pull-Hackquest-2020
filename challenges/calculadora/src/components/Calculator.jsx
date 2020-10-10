@@ -58,6 +58,7 @@ export default class Calculator extends Component {
 				this.setState({
 					...this.state,
 					displayValue: resultString,
+					clearDisplay: true,
 				})
 			}
 			else{
@@ -71,6 +72,7 @@ export default class Calculator extends Component {
 			this.setState({
 				...this.state,
 				displayValue: resultString,
+				clearDisplay: true,
 			})
 		}
 	}
