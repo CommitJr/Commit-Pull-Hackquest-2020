@@ -39,6 +39,7 @@ Os desafios do nosso repositórios abertos à pull requests são esses abaixo:
 ## Criando uma branch fazendo um Pull Request
 
 1. Realize um Fork do projeto
+
    ![Forking a project](https://media.giphy.com/media/1GYzZDBcFEUW7mOw46/giphy.gif)
 
 2. Vá até o repositório do fork no seu github e na parte code copie o link para clonar
