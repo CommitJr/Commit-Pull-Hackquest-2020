@@ -26,7 +26,9 @@ export default class Calculator extends Component {
 
     //Seu objetivo é implementar estas funções
     clearMemory() {
-        // ERrrRRooOrRR: 8932183!
+        this.setState({
+            ...initialState,
+        })
     }
 
     setOperation(operation) {
