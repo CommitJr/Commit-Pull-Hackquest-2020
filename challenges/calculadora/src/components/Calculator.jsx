@@ -28,8 +28,31 @@ export default class Calculator extends Component {
     //Seu objetivo é implementar estas funções
 
     calculate(){
-		
-    }
+		/*
+			this method will calculate the result and show it on the display
+		*/
+		let result = 0
+        switch(this.state.operation){
+			case '+':
+				result = this.state.values[0] + this.state.values[1]
+				break;
+			case '-':
+				result = this.state.values[0] - this.state.values[1]
+				break;
+			case '*':
+				result = this.state.values[0] * this.state.values[1]
+				break;
+			case '/':
+				result = this.state.values[0] / this.state.values[1]
+				break;
+			default: break;
+		}
+		this.setState({
+			...this.state,
+			displayValue: result.toString(),
+		})
+	}
+
 
     clearMemory() {
 		/*
