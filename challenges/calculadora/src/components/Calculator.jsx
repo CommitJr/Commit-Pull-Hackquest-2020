@@ -22,9 +22,15 @@ export default class Calculator extends Component {
         this.clearMemory = this.clearMemory.bind(this)
         this.setOperation = this.setOperation.bind(this)
         this.addDigit = this.addDigit.bind(this)
+        this.calcular = this.calcular.bind(this)
     }
 
     //Seu objetivo é implementar estas funções
+
+    calculate(){
+
+    }
+
     clearMemory() {
         this.setState({
             ...initialState,
@@ -32,7 +38,11 @@ export default class Calculator extends Component {
     }
 
     setOperation(operation) {
-        // ERrrRRooOrRR: 2162621 ;-;!
+        
+        this.setState({
+            ...this.state,
+            operation: operation,
+        })
     }
 
     addDigit(n) {
