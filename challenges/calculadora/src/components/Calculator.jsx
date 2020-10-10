@@ -34,7 +34,10 @@ export default class Calculator extends Component {
     }
 
     addDigit(n) {
-        // ErrrroR: 7163271 ;-;
+        this.setState({
+            ...this.state,
+            displayValue: this.state.displayValue === '0' ? n.toString() : this.state.displayValue + n.toString(),
+        })
     }
 
     render() {
