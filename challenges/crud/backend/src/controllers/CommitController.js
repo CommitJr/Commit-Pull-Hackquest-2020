@@ -3,25 +3,58 @@ const connection = require("../database/Connection");
 module.exports = {
 
   async index(req, res) {
-    //#Erorr002155
+    connection('commits').select()
+      .then((rows) => {
+        res.status(200).json(rows);
+      })
+      .catch(err => { console.log(err); throw err; });
   },
 
   async indexById(req, res) {
-    //#Erorr002155
+    connection('commits').select().where({ id: req.params.id })
+      .then((rows) => {
+        res.status(200).json(rows);
+      })
+      .catch(err => { console.log(err); throw err; });
+
   },
 
   async create(req, res) {
-    //#Erorr002155
+    connection.table('commits').insert({
+      nome: req.body['name'],
+      descricao: req.body['description'],
+      branch_id: req.body['branch']
+    }).then(() => {
+      res.status(200).json({
+        status: 'success'
+      });
+    }).catch(err => { console.log(err); throw err; });
   },
 
   async edit(req, res) {
-    //#Erorr002155
+    if (req.body['id'] == undefined) {
+      res.status(404).json();
+
+    } else {
+      connection.table('commits')
+        .where({ id: req.body['id'] })
+        .update({
+          nome: req.body['name'],
+          descricao: req.body['description'],
+          branch_id: req.body['branch']
+        }).then(() => {
+          res.status(200).json({
+            status: 'success'
+          });
+        }).catch(err => { console.log(err); throw err; });
+    }
   },
 
   async delete(req, res) {
-    //#Erorr002155
-
-    return res.status(204).send();
+    connection.table('commits').delete().where({ id: req.params.id })
+      .then(() => {
+        return res.status(204).send();
+      }).catch(err => { console.log(err); throw err; });
   },
 
 }
